@@ -3,7 +3,7 @@
 # 2nd edition - CAP 11
 # fev 2024  v4  msantos@est.ufmg.br
 
-# For more details, see a complete description of this test for times series in the Mainly, B. "Randomization, Bootstrapp and Monte Carlo Method in Biology" 
+# For more details, see a complete description of this test in Mainly, B. "Randomization, Bootstrapp and Monte Carlo Method in Biology" 
 
 
 # vpk function 
