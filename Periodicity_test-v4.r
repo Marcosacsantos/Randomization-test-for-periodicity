@@ -1,5 +1,5 @@
 
-# Randomization test for periodicity as described in Mainly, B. "Randomization, Bootstrapp and Monte Carlo Method in Biology" 
+# An implementation of the randomization test for periodicity of a time serie, as described in Mainly, B. "Randomization, Bootstrapp and Monte Carlo Method in Biology" 
 # 2nd edition - CAP 11
 # fev 2024  v4  msantos@est.ufmg.br
 
@@ -73,8 +73,9 @@ TestCycle=function(serie, plim, N){
 # An example with the dataset extracted from the book
 vserie=read.table("serie.grain.txt", header=T)
 head(vserie)
- 
-TestCycle(serie=vserie$Yield, plim=0.05, N=3000) # vetor de dados, lista com somente pvalor < 0.05, número de permutações 3000
+
+# Usage
+TestCycle(serie=vserie$Yield, plim=0.05, N=3000) # plim = show results only if p-value <= plim , N is the number of permutations
 
 
 
